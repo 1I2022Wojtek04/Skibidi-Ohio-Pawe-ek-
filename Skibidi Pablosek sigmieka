@@ -67,12 +67,31 @@
     <!-- HTML collection - obiekt tablicopodobny, okej? Proszę to sobie wpisać. On ma długość i mogę się dostać do niego za pomocą tablicy HA TE EM EL collection. Tutaj pojawia się mały problem, bo tablice HTML collection mają mniej metod niż tablica. Dlatego stosuje się różne metody by zmienić HTML collection na tablice -->
 
     <!-- Dwie metody zrobienia tablicy z pobranych elementów, które są obiektem tablicopodbnym:
-        1: 
+         
               <script>
-        const imgs = Array.from(document.images);
-        const imgs2 = [...document.images];
-    </script>
+        1: const imgs = Array.from(document.images);
+        2: const imgs2 = [...document.images];
+            </script>
     -->
+
+
+    <!-- NOWA LEKCJA -->
+
+
+    <div id="skibidi">
+        Pawełek jest taką skibidi sigmiemką, że to szok
+    </div>
+
+    <p>UwU</p>
+    <p>OwO</p>
+    <p>UnU</p>      
+
+
+    <script>
+        document.getElementById("skibidi").innerHTML += " ... Niestety jest łysy...";
+        document.getElementById("first").innerHTML = "โครงการเมืองฉอดธานี"
+    </script>
+
 
 </body>
 </html>
